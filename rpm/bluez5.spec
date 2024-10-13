@@ -26,6 +26,7 @@ BuildRequires:  pkgconfig(udev)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(check)
 BuildRequires:  pkgconfig(libical)
+BuildRequires:  pkgconfig(alsa)
 BuildRequires:  bison
 BuildRequires:  flex
 BuildRequires:  automake
@@ -146,6 +147,7 @@ autoreconf --force --install
     --enable-jolla-dbus-access \
     --enable-jolla-did \
     --enable-library \
+    --enable-midi \
     --enable-nfc \
     --enable-option-checking \
     --enable-sailfish-exclude \
